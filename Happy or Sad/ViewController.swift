@@ -9,12 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var messageEntered: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+// connet button to code
+    @IBAction func analyse(_ sender: Any) {
+        guard let message = messageEntered.text else{
+            print("Please enter something")
 
+            return
+            if messageEntered.count > 225{
+                print("Please enter something")
+            }
+            
+        }
+    }
+}
+
+// MARK: Methods
+for messageEntered in {
+    
 }
 
