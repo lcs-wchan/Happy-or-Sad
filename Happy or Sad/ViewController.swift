@@ -32,7 +32,18 @@ class ViewController: UIViewController {
 }
 
 // MARK: Methods
+var happyCount = 0
+var sadCount = 0
 for messageEntered in {
     
 }
 
+if happyCount = 0 && sadCount = 0 {
+    print("none")
+} else if happyCount == sadCount {
+    print("unsure")
+} else if happyCount > sadCount {
+    print("happy")
+} else if happyCount < sadCount {
+    print("sad")
+}
