@@ -26,6 +26,8 @@ class ViewController: UIViewController {
 //        messageOutput.text = ""
 //        messageEntered.text = ""
         
+        
+        
         // INPUT
         // Protect against bad user input
         // Get user input
